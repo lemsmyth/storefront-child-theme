@@ -1,17 +1,18 @@
-/*!
-Theme Name:   Storefront Child Theme
-Theme URI:    https://lemsmyth.com/themes/storefront-child
-Template:     storefront
-Version:      1.0
-Author:       Lemuel Smyth
-Author URI:   https://lemsmyth.com/
-Donate Link: https://lemsmyth.com/donate/
-Requires PHP: 5.6.20
-Description:  Child Theme of the Storefront Theme by WooCommerce theme
-License:      GNU General Public License v2 or later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  storefront-child
-Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+/**!
+ * @package storefront-child-theme
+ * Theme Name:   Storefront Child Theme
+ * Theme URI:    https://lemsmyth.com/themes/storefront-child-theme
+ * Template:     storefront
+ * Version:      1.0.3
+ * Author:       Lemuel Smyth
+ * Author URI:   https://lemsmyth.com/
+ * Donate Link:  https://lemsmyth.com/donate/
+ * Requires PHP: 5.6.20
+ * Description:  Child Theme of the Storefront Theme by WooCommerce theme
+ * License:      GNU General Public License v2 or later
+ * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:  storefront-child-theme
+ * Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
 
 This child theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -25,10 +26,15 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 All sizing (typography, layout, padding/margins, etc) are inspired by a modular scale that uses 1em as a base size with a 1.618 ratio.
 You can read more about the calculator we use in our Sass here: https://github.com/modularscale/modularscale-sass
 
-FontAwesome License: SIL Open Font License - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-Images License: GNU General Public License v2 or later
+ * FontAwesome License: SIL Open Font License - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+ * Images License: GNU General Public License v2 or later
 
 ======
 Note: Place any custom CSS below the comment closing tag, remember to also place any custom CSS from the Parent Theme  Customizer > Additional CSS.
 ======
-*/
+**/
+
+div#post-43.post-43.page.type-page.status-publish.hentry {
+  padding: 0;
+  margin: 0;
+}
