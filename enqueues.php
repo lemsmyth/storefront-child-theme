@@ -15,13 +15,13 @@ function my_theme_enqueue_styles() {
 
     $parent_style = 'storefront-style';
     $storefront_child_version = wp_get_theme()->get( 'Version' );
-      // Enqueque parent stylesheet:
+      // Enqueue parent stylesheet:
     wp_enqueue_style(
       $parent_style,
       get_template_directory_uri() . '/style.css',
       array()
     );
-      // Enqueque child stylesheet:
+      // Enqueue child stylesheet:
     wp_enqueue_style(
       'storefront-child-theme-style',
       get_stylesheet_directory_uri() . '/style.css',
