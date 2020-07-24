@@ -1,7 +1,7 @@
 <?php
 /**
  * ==================
- *    ENQUEQUES.PHP
+ *    ENQUEUES.PHP
  * ==================
  * @package storefront-child-theme
  */
